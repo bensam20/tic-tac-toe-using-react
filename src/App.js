@@ -15,16 +15,17 @@ function App() {
   const [but8, setBut8] = useState({ value: "8", isDisabled: false });
   const [but9, setBut9] = useState({ value: "9", isDisabled: false });
 
-  const winnings = [
-    [but1, but2, but3],
-    [but4, but5, but6],
-    [but7, but8, but9],
-    [but1, but4, but7],
-    [but2, but5, but8],
-    [but3, but6, but9],
-    [but1, but5, but9],
-    [but3, but5, but7]
-  ]
+  // const winnings = [
+  //   [but1, but2, but3],
+  //   [but4, but5, but6],
+  //   [but7, but8, but9],
+  //   [but1, but4, but7],
+  //   [but2, but5, but8],
+  //   [but3, but6, but9],
+  //   [but1, but5, but9],
+  //   [but3, but5, but7]
+  // ]
+
   function gameLogic(currentPlayer) {
   
     if(count>4){
