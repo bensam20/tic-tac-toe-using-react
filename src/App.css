@@ -1,4 +1,20 @@
 button {
     width: 50px;
     height: 50px;
+    background-color: rgb(14, 14, 85);
+    color: rgb(14, 14, 85);
+}
+
+button:disabled{
+    background-color: red;
+    color: wheat;
+}
+
+.title{
+    font-family: cursive;
+}
+
+.winButton {
+    background-color: rgb(16, 230, 69);
+    color: rgb(14, 14, 85);
 }
